@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* 
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 1920px;
+}
+
+#horizontalBar {
+    margin-bottom: 2%;
+    height: 50px;
+    background-color: #3958F1;
+}
+
+#logoAzul {
+    margin-left: 2%;
+    width: 8%;
+    vertical-align: middle;
+}
+
+#navBar {
+    display: inline-block;
+    width: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+    text-decoration: none;
+}
+
+#titleMain {
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+}
+
+#pTitleMain {
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    text-align: center;
+    color: #0a2ff1;
+}
+
+#pSubtitleMain {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 34.66px;
+    text-align: center;
+    color: #04146c;
+}
+
+#titleImg {
+    margin-top: 40px;
+    width: 100%;
+}
+
+#article2 {
+    height: 675px;
+    background-image: url("../src/img/M5-Desafio3-img.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#puntosDeInteres {
+    /* margin-left: 125px; */
+    margin-left: 10%;
+    width: 675px;
+}
+
+#puntosDeInteres h1 {
+    margin-top: 50px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 45.33px;
+    color: #0a2ff1;
+}
+
+#puntosDeInteres h2 {
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #04146c;
+}
+
+#puntosDeInteres p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #04146c;
+}
+
+footer {
+    height: 100px;
+    background-color: #3958F1;
+}
+
+footer img {
+    margin-left: 125px;
+    padding: 30px 0;
+    height: 100%;
+}
