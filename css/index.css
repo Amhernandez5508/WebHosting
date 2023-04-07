@@ -30,12 +30,16 @@ body {
 
 #navBar {
     display: inline-block;
-    width: 500px;
+    margin-left: 3%;
+    width: fit-content;
+    max-width: 500px;
+    vertical-align: middle;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    width: fit-content;
 }
 
 nav a {
@@ -55,7 +59,7 @@ nav a {
 #pTitleMain {
     font-family: 'Roboto Slab', sans-serif;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 74px;
     text-align: center;
     color: #0a2ff1;
 }
@@ -75,7 +79,8 @@ nav a {
 }
 
 #article2 {
-    height: 675px;
+    height: auto;
+    min-height: 675px;
     background-image: url("../src/img/M5-Desafio3-img.png");
     background-position: right;
     background-repeat: no-repeat;
@@ -85,7 +90,8 @@ nav a {
 #puntosDeInteres {
     /* margin-left: 125px; */
     margin-left: 10%;
-    width: 675px;
+    max-width: 675px;
+    width: fit-content;
 }
 
 #puntosDeInteres h1 {
